@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 //#include<conio.h>
-
+//http://www.spoj.com/problems/FLWRS/ faling on the last test case.plz help
     
 
 
