@@ -1,5 +1,6 @@
 #include<stdio.h>
 //#include<conio.h>
+//http://www.spoj.com/problems/SMILEY1807/ getting (SIGSEGV) pls help
 #include<string.h>
 long int max(long int a,long int b){
      if(a>b)
