@@ -7,20 +7,14 @@ long int max(long int a,long int b){
       else return b;
 }
 
-char arr[99999];
+char arr[1000010];
 int main(){
-memset(arr,'0',sizeof(arr));
+
   long int dp[10]={0};
-char x;
-//printf("%c",arr[0]);
- scanf("%c",&x);
-  long int c=0;
-while (x>='0'&& x<='9') {
-  arr[c]=x;
-  scanf("%c", &x);
-  ++c;
-  
-}
+
+ scanf("%s",&arr);
+  long int c=strlen(arr);;
+
 //printf("%ld\n",c);
   int f8=0,f7=0,f1=0,f0=0,i;
   for(i=0;i<c;i++){
